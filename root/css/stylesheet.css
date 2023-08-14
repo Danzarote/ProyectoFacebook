@@ -21,8 +21,13 @@ h2{
     width: 400px;
     text-align: center;
 }
+form{
+    display: flex;
+    flex-direction: column;
+}
 .segundoContainer{
     border: 5px solid green;
+   
     background-color: #fff;
     padding: 10px 0px 24px 0px;
     margin-top: 40px;
@@ -48,6 +53,7 @@ footer{
 
 .idiomas{
     display: flex;
+    
     
 }
 .interacciones{

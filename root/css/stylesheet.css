@@ -21,19 +21,71 @@ h2{
     width: 400px;
     text-align: center;
 }
-form{
-    display: flex;
-    flex-direction: column;
-}
 .segundoContainer{
     border: 5px solid green;
-   
     background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
     padding: 10px 0px 24px 0px;
     margin-top: 40px;
     border: 0px;
     width: 400px;
     height: 316px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    
+}
+input{
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin: 6px;
+    padding: 14px 16px;
+    
+}
+.olvido-contraseña{
+    color:#1877f2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    justify-content: center;
+    padding: 14px 16px; 
+
+}
+
+nav a{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.btn-login{
+    background-color: #1877f2;
+    border:none;
+    color:#fff;
+    font-size: 20px;
+    border-radius: 6px;
+    padding: 12px 6px;
+    margin:6px;
+
+}
+.linea{
+    border:0.1px solid #d1cccc ;
+    margin: 5px 5px 10px;
+}
+.btn-crear-cta{
+    background-color: #42b72a;
+    border:none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    margin:6px;
+    padding: 0 16px;;
 }
 
 section{
@@ -58,4 +110,11 @@ footer{
 }
 .interacciones{
     display: flex;
+   
+}
+nav ul li a{
+    color:#696868;
+
+    
+
 }

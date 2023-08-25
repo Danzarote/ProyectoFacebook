@@ -98,23 +98,33 @@ section{
 footer{
     background-color: #fff;
     color: #696868;
-    border: 5px solid purple;
+  
+   
    
 
 }
 
 .idiomas{
     display: flex;
+   
     
     
 }
 .interacciones{
     display: flex;
+    flex-wrap: wrap;
+    padding: 8px;
+   
+
+   
    
 }
 nav ul li a{
-    color:#696868;
-
+    color:#8a8d91;
+    font-size: 12px;
+    margin: 1 em;
+    padding: 8px;
+    display: flex;
+    flex-wrap: wrap;
     
-
 }

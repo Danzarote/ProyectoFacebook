@@ -110,6 +110,14 @@ footer{
     
     
 }
+.fa-plus{
+    color: #696868;
+    font-size: 10px;
+   
+
+
+
+}
 .interacciones{
     display: flex;
     flex-wrap: wrap;
